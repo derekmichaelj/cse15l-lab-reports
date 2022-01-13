@@ -19,3 +19,5 @@ I'm not very creative so here's an image
 [Here's a youtube video](https://www.youtube.com/watch?v=eqMKy74HKXs)
 
 Editing here
+
+[Lab Report 1](https://derekmichaelj.github.io/derekmichaelj/lab-report-1-week-2.html)
