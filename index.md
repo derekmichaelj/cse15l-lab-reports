@@ -12,6 +12,10 @@ print 'Hello there'
 * Is
 * A
 * List
+
 I'm not very creative so here's an image
+
 ![Image](https://ichef.bbci.co.uk/news/999/cpsprodpb/6D5A/production/_119449972_10.jpg)
 [Here's a youtube video](https://www.youtube.com/watch?v=eqMKy74HKXs)
+
+Editing here
