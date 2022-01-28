@@ -31,13 +31,16 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 >```cd```
 >
 ![Image](cd-command.png)
+```cd``` changes the directory you're in. You can either specify which directory you want to go to, or you can simply type in ```cd``` which will send you back to the home directory.
 >```cd ~```
 >
 ![Image](cd-tilde.png)
+```cd ~``` is another way of returning to the home directory
 
 >```ls```
 >
 ![Image](ls.png)
+```ls``` lists all the files in the given directory.
 
 >```ls -lat```
 >
