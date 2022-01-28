@@ -3,8 +3,7 @@
 ___
 Here I'm going to tell you how to log into your course specific account using the following steps.
 ___
-## Step 1:
-**Installing VSCode**
+## Installing VSCode
 
 * To download VSCode, simply navigate to 
 [this](https://code.visualstudio.com/)
@@ -14,8 +13,7 @@ website
 * Once that is done, try running VSCode, and you should end up with a window looking like this:
 ![Image](vscode-all-set-up.png)
 
-## Step 2:
-**Remotely Connecting**
+## Remotely Connecting
 
 * Click on the Terminal tab in the file heading
 * Click on New Terminal in order to open up a new terminal
@@ -27,8 +25,7 @@ ssh cs15l<term><account-specific letters>@ieng6.ucsd.edu
 * This should successfully connect you remotely, giving you this terminal message:
 ![Image](connected-remotely.png)
 
-## Step 3:
-**Trying Some Commands**
+## Trying Some Commands
 
 Now that you're connected remotely, you can try inputting some commands. Here are some commands you can try:
 >```cd```
@@ -53,8 +50,7 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 >
 Here's an example of running the command ```cd```:
 ![Image](cd-command.png)
-## Step 4:
-**Moving files with scp**
+## Moving files with scp
 
 For this step you can use any file you want. However, in my case, I created a new file called ```WhereAmI.java``` using the following code
 ```
@@ -72,8 +68,7 @@ From here, run the following command:
 >
 Enter your password when prompted. Your file should be moved now. If you aren't logged in, log in and run ```ls``` to check to make sure that your file is in the library. You should see your file name as such:
 ![Image](whereami-in-library.png)
-## Step 5:
-**Setting an SSH Key**
+## Setting an SSH Key
 
 Setting up an SSH Key will allow you to access something remotely, without the need of a password. To do this, simply enter the command 
 >```ssh-keygen```
@@ -86,8 +81,7 @@ Logout from the server, and in the terminal enter the command
 >
 From here, you should be able to log into the server without the use of a password, as well as use the ```scp``` command without use of the password, as such:
 ![Image](connecting-without-password.png)
-## Step 6:
-**Optimizing Remote Running**
+## Optimizing Remote Running
 
 There are various tricks to get used to when remotely operating something. For example, you can run commands at the end of an ```ssh``` command, as such:
 ![Image](end-ssh-command.png)
