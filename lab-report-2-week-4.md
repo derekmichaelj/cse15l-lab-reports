@@ -8,5 +8,3 @@ All these changes were made because when this [file](test-break.md) was run for 
 
 To combat this, the print statement was put in in order to get a grasp of which indexes were looping infinitely. This resulted in this output:
 
-
-Looking at this output, we were able to figure out what was going on. Through 
