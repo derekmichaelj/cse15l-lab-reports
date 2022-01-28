@@ -10,3 +10,5 @@ All these changes were made because when this [file](test-break.md) was run for 
 To combat this, the print statement was put in in order to get a grasp of which indexes were looping infinitely. This resulted in this output:
 
 ![Image](report2loop.png)
+
+From here, we were able to see that the reason it kept looping back to the beginning was because 
