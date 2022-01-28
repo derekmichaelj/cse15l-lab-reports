@@ -32,6 +32,7 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 >
 ![Image](cd-command.png)
 ```cd``` changes the directory you're in. You can either specify which directory you want to go to, or you can simply type in ```cd``` which will send you back to the home directory.
+
 >```cd ~```
 >
 ![Image](cd-tilde.png)
@@ -45,18 +46,22 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 >```ls -lat```
 >
 ![Image](ls-lat.png)
+```ls -lat``` lists more information and displays other directories and folders in the current given directory. This extra information includes the location, space it takes up, when it was made, etc.
 
 >```ls -a```
 >
 ![Image](ls-a.png)
+```ls -a``` lists all files in the directory, including hidden files that wouldn't have been listed with simply ```ls```
 
 >```cp /home/linux/ieng6/cs15l<term>/public/hello.txt ~/```
 >
 ![Image](cp.png)
+```cp``` copies a file from one directory into the given directory. In this instance, however, I was denied permission for access to the file I was trying to copy. Regardless, this would be the command you use to copy a file.
 
 >```cat /home/linux/ieng6/cs15l<term>/public/hello.txt```
 >
 ![Image](cat.png)
+```cat``` allows for users to create single or multiple files, view the contents of a file, concatenate files, and redirect output. Again, in this situation permission was denied, although this is the command you would use for these functions.
 
 ## Moving files with scp
 
