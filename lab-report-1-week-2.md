@@ -30,7 +30,7 @@ ssh cs15l<term><account-specific letters>@ieng6.ucsd.edu
 Now that you're connected remotely, you can try inputting some commands. Here are some commands you can try:
 >```cd```
 >
-
+![Image](cd-command.png)
 >```cd ~```
 >
 
@@ -48,8 +48,7 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 
 >```cat /home/linux/ieng6/cs15l<term>/public/hello.txt```
 >
-Here's an example of running the command ```cd```:
-![Image](cd-command.png)
+
 ## Moving files with scp
 
 For this step you can use any file you want. However, in my case, I created a new file called ```WhereAmI.java``` using the following code
