@@ -33,21 +33,27 @@ Now that you're connected remotely, you can try inputting some commands. Here ar
 ![Image](cd-command.png)
 >```cd ~```
 >
+![Image](cd-tilde.png)
 
 >```ls```
 >
+![Image](ls.png)
 
 >```ls -lat```
 >
+![Image](ls-lat.png)
 
 >```ls -a```
 >
+![Image](ls-a.png)
 
 >```cp /home/linux/ieng6/cs15l<term>/public/hello.txt ~/```
 >
+![Image](cp.png)
 
 >```cat /home/linux/ieng6/cs15l<term>/public/hello.txt```
 >
+![Image](cat.png)
 
 ## Moving files with scp
 
