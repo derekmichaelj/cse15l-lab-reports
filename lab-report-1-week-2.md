@@ -87,4 +87,8 @@ There are various tricks to get used to when remotely operating something. For e
 ![Image](end-ssh-command.png)
 Similarly, you can separate commands on a single line with a semicolon.
 
-Finally, you can use the up arrow to run the previous command.
+However, upon closer examination of the screenshot above, you may have noticed that, in total for that single line, there were 57 keystrokes. Each keystroke takes time, and seeing as we don't type at the speed of a computer, we must instead utilize ways of cutting down our number of keystrokes as much as possible. 
+
+One way of accomplishing this is to copy longer commands that may have to be repeated over and over again. For example, if I copy ```ssh cs15lwi22zzz@ieng6.ucsd.edu```, that turns something composed of 31 keystrokes into two keystrokes, or two clicks of the mouse, saving a lot of time. 
+
+Finally, you can use the up arrow to run the previous command, which cuts down the number of keystrokes to only one, also saving a lot of time.
