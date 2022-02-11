@@ -1,6 +1,8 @@
 # Week 6 Lab Report 3
 ## *Derek Jensen*
 ___
+## Streamlining ssh Configuration
+
 To start with, we need to access the .ssh folder from the terminal. Go to the default starting directory, and using the command ```ls -a``` you can see that the .ssh folder is in the current directory.
 ![Image](showsshfolder.png)
 
