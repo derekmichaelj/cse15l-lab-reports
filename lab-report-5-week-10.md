@@ -10,3 +10,5 @@ Given test case 547:
 We can see that the expected outcome of running this file through a markdown-parse would be empty brackets [].
 The results of running the two implementations were as follows:
 ![Image](547results.png)
+As can be seen from these results, the implementation provided was correct, as it yielded the correct expected output [], whereas my implementation yielded an index out of bounds error. 
+This is due to the fact that in my implementation, it doesn't account for files in which there are no parenthesis. In the entire while loop, it never actually checks to see whether or not the next open or close parenthesis are at index -1, and as such, ```int openParen = markdown.indexOf("(", nextCloseBracket);``` will create an index of -1, which, when run through ```toReturn.add(markdown.substring(openParen + 1, closeParen));```, yields the index out of bounds error shown in the image.
